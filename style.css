@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500;600;700&family=Big+Shoulders+Display:wght@700&family=Flamenco&family=PT+Serif:wght@700&family=Poppins:wght@500;600;700&family=Source+Serif+4:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500;600;700&family=Big+Shoulders+Display:wght@700&family=Flamenco&family=Open+Sans:wght@600&family=PT+Serif:wght@700&family=Poppins:wght@500;600;700&family=Source+Serif+4:wght@300;400;500&display=swap');
+header {
+    background-image: url(/images/bg-hero-mobile.svg);
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.logo_boton {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 7%;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+    margin: 0 5%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn_free {
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 1px 0px 9px 3px rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: 1px 0px 9px 3px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 1px 0px 9px 3px rgba(0, 0, 0, 0.29);
+    width: 15%;
+    height: 2em;
+    font-size: 50%;
+    font-weight: bold;
+}
+
+.contenedor_comunidad {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comunidad {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comunidad h2 {
+    font-size: 90%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.comunidad p {
+    font-size: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.btn_comenzar {
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 90%;
+    height: 4em;
+    font-size: 50%;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.contenedor_comunidad img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.contenedor_principal {
+    width: 100%;
+    margin-top: 10%;
+    font-family: 'Open Sans';
+}
+
+.contenedor {
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    padding-bottom: 5%;
+    margin-bottom: 7%;
+}
+
+.contenedor img {
+    width: 100%;
+}
+
+.contenedor h2 {
+    text-align: center;
+    width: 80%;
+    font-weight: 600;
+    margin: 5% auto;
+}
+
+.contenedor p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.ultimo {
+    margin-bottom: 40%;
+}
+
+.contenedor_empezar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    background-color: white;
+    left: 10%;
+    top: 173%;
+}
+
+.contenedor_empezar h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.contenedor_empezar input {
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 60%;
+    height: 4em;
+    font-size: 60%;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    padding-top: 30%;
+}
+
+.contenedor_footer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.ctr {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.ctr img {
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.contenedor_footer a {
+    color: white;
+    text-decoration: none;
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.redes_sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.iconos_redes {
+    border: solid 1px white;
+    width: 8%;
+    border-radius: 50px;
+    margin: 1%;
+}
+
+i {
+    font-size: 80%;
+    margin: 30%;
+}
