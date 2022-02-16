@@ -20,9 +20,9 @@ header {
 }
 
 .logo {
-    width: 20%;
-    height: 20%;
-    margin: 0 5%;
+    width: 30%;
+    height: 30%;
+    margin: 5%;
 }
 
 .logo img {
@@ -37,10 +37,11 @@ header {
     box-shadow: 1px 0px 9px 3px rgba(0, 0, 0, 0.29);
     -webkit-box-shadow: 1px 0px 9px 3px rgba(0, 0, 0, 0.29);
     -moz-box-shadow: 1px 0px 9px 3px rgba(0, 0, 0, 0.29);
-    width: 15%;
+    width: 20%;
     height: 2em;
-    font-size: 50%;
+    font-size: 80%;
     font-weight: bold;
+    margin: 5%;
 }
 
 .contenedor_comunidad {
